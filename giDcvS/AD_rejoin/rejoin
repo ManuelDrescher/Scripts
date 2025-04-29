@@ -1,0 +1,22 @@
+#!/bin/bash
+
+###################################################################
+## AD Rejoin-ShellSkript                                         ##
+##                                                               ##
+## Autor: XXXX                                                   ##
+## Datum: XXXX                                                   ##
+##                                                               ##
+## Inhalt: Aufruf von ad_rejoin.sh per curl                      ##
+##                                                               ##
+## Ablage unter /usr/local/bin + chmod 755                       ##
+## Anschließend von überall ausführbar mit "rejoin"              ##
+###################################################################
+
+#Prüfen ob SuperUser, ansonsten Wechsel und Beginn des Skript von vorne
+[ `whoami` = root ] || { sudo "$0" "$@"; exit $?; }
+echo --- Wechsel auf Superuser erfolgt. ---
+sleep 1
+clear
+#Remotezugriff per curl auf das zentrale ad_rejoin.sh Skript
+#curl muss ggf. auf den Systemen nachinstalliert werden
+bash -c "$(curl -fsSL <PATH_TO_ad_rejoin.sh_HTTP_HTTPS>)"
