@@ -8,7 +8,7 @@
 ##                                                               ##
 ## Inhalt: Vollständige Rejoin in die Domäne <DOMAIN>            ##
 ##                                                               ##
-## Zentrale Ablage, Aufruf erfolgt Remote über patch_me.sh       ##
+## Zentrale Ablage, Aufruf erfolgt Remote über "rejlin"          ##
 ###################################################################
 
 #Shell-Verhalten definieren
