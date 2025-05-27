@@ -9,7 +9,7 @@
 ## Inhalt: Automatisches Patchen mit anschl. Aufräumen           ##
 ## und Planung des Reboot                                        ##
 ##                                                               ##
-## Zentrale Ablage, Aufruf erfolgt Remote über patch_me.sh       ##
+## Zentrale Ablage, Aufruf erfolgt Remote über "update"          ##
 ###################################################################
 
 #Shell-Verhalten definieren
