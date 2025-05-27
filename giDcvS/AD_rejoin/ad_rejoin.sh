@@ -8,7 +8,7 @@
 ##                                                               ##
 ## Inhalt: Vollständige Rejoin in die Domäne <DOMAIN>            ##
 ##                                                               ##
-## Zentrale Ablage, Aufruf erfolgt Remote über "rejlin"          ##
+## Zentrale Ablage, Aufruf erfolgt Remote über "rejoin"          ##
 ###################################################################
 
 #Shell-Verhalten definieren
