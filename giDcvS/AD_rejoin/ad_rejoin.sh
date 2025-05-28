@@ -42,4 +42,6 @@ read -p "Bitte <TIER-ACCOUNT> eingeben (bspw. <TIER>MaxMustermann): " DomainAdmi
 sudo realm join -U $DomainAdmin <DOMAIN>
 sudo mv /etc/sssd/sssd.bak /etc/sssd/sssd.conf
 sudo systemctl restart sssd
+sudo adcli update keytab
+sudo systemctl restart sssd
 sudo systemctl status sssd
